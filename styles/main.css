@@ -1,23 +1,19 @@
-<!-- In this file you are going to write the CSS code -->
 * {
   box-sizing: border-box;
+  
 }
-
 .transparent_nav > .nav_bar {
     background-color:hsla(0,0%,100%,0.7);
     overflow: hidden;
   }
-  
   header{
       background-image: url("images/billboard.jpg");
       background-repeat:no-repeat;
       background-size: cover;
-      width:100%;
-     
-      /* height:500px; */
+          width:100%;
   }
   body{
-    /* background-color:cadetblue; */
+    background-color:#808080;
   }
   /* navigation */
   .nav_list{
@@ -26,7 +22,6 @@
   } */
     ul.navlist{
       width: 100px;
-
     }
       #nav_list{
           display:flex;
@@ -66,14 +61,11 @@ color: black;
            float:right;     
             text-decoration: none;
             text-align: center;
-            /* border: 2px solid black; */
             box-shadow: 2px 2px 2px gray;
-            text-shadow:px 2px 2px blue ;
             text-transform: uppercase;
             padding: 1em 1.5em;
             color:white;
             background-color: hsl(191, 100%, 50%);
-
       }
       /* services_wrapper */
 h1{
@@ -81,20 +73,17 @@ h1{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    color:navy;
    font-size:2em;
-   text-shadow: 2px 2px 2px goldenrod;
+   text-shadow: 1px 1px 2px black;
 }
 /* separater_style */
 #separater_style{
   text-align: center;
-  background-color: cadetblue;
+  background-color:	#66b3ff;
   margin-bottom: 0;
 }
-
 .services wrapper{
   top:0;
-
 }
-
 /* recent work */
 .imrow{
   display: flex;
@@ -103,15 +92,13 @@ h1{
   
 }
    #imitem{
-     
-    width:255px; 
+        width:255px; 
     height:300px;
     filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 -webkit-transition: all 1s ease;
 padding-left: 10px;
-    
-   } 
+      } 
    #imitem:hover{
     filter: grayscale(0%);
     filter: gray;
@@ -120,35 +107,22 @@ padding-left: 10px;
     transition: 1s ease;
        }
 
-
-/* client_logo */
-div #client_logo
-{
-  background-image:url("images/client_logo.png");
-}
 /* flex for footer */
 .frow{
 display: flex;
-/* margin: 10px; */
-
 }
 .fcol{
  background-color: black;
  color:white;
  width:100%;
  padding: 100px;
- 
-
-}
-/* sup_list */
+ }
 #sup_list>li{
   list-style-type: none;
   text-align: left;                
   display:inline;
    padding: 10px;
-  
 }
-/* comp_list */
 #comp_list>li{
   list-style-type: none;
   text-align: left;                
@@ -163,12 +137,13 @@ li.n1>*{
        li.n1>*:hover {
         color:chocolate;
         }
-    
-/* testimonials_style */
-.testimonials_style
+    ul{
+        display: inline;
+    }
+.testimonials_style        
 {
     display:flex;
-    justify-content: space-evenly;
+     justify-content: space-evenly;
 
 }
 div.testimonials_style >* {
@@ -178,29 +153,18 @@ div.testimonials_style >* {
    height: 250px;
    color:white;
    padding: 30px;
-
 }
 .ul_stylet{
 
 text-align: center;
 text-decoration: none;
 list-style-type: none;
-
 }
 #imgshape{
     border-radius: 50%;
 }
-
-/* brandimg */
-.brandimg{
-  background-image: url("images/client_logo.png");
-  background-size: cover;
-  /*background-repeat: repeat-x; */
-
-}
-/* rights */
 .rights{
-    background-color: black;
+    background-color: black;     /* rights */                
     color: blanchedalmond;
     text-align: center;
     margin-top: 0;
@@ -210,19 +174,15 @@ list-style-type: none;
   background-image: url("images/social.png");
   background-repeat: no-repeat;
   height: 25px;
-
 }
 .social_icon:hover{
   background-image: url("images/social_hover.png");
-
 }
 .client_brand {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #f3f3f3;
-  text-align: center; width: 100%;
-}
-
+  text-align: center; width: 100%;}
 .client_brand img {
   padding-left: 2.9%;
   padding-right: 2.9%;
